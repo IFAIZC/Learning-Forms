@@ -138,3 +138,16 @@ input {
 .right-bottom-content button:hover {
     background-color: #445642;
 }
+
+/* Styling for error messages */
+label.error {
+    font-size: 14px;
+    color: red;
+    margin-top: 5px;
+    display: none; /* Hide by default */
+}
+
+/* Highlight invalid inputs */
+input:invalid {
+    border-color: red;
+}
